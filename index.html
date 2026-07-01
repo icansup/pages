@@ -1,1 +1,45 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>I CAN Supplies - Under Construction</title><style>html,body{margin:0;height:100%;background:#021b14;display:flex;align-items:center;justify-content:center}img{max-width:100%;max-height:100%;object-fit:contain}</style></head><body><img src="under-construction.jpg" alt="Under Construction"></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>I CAN Supplies | Under Construction</title>
+<style>
+html,body{
+margin:0;
+width:100%;
+height:100%;
+overflow:hidden;
+font-family:Arial,sans-serif;
+}
+body{
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+background:#022017;
+}
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:url('background.jpg') center center/cover no-repeat;
+filter:blur(20px) brightness(.6);
+transform:scale(1.15);
+}
+img{
+position:relative;
+z-index:1;
+max-width:100%;
+max-height:100%;
+width:auto;
+height:auto;
+object-fit:contain;
+box-shadow:0 20px 60px rgba(0,0,0,.45);
+}
+</style>
+</head>
+<body>
+<img src="under-construction.jpg" alt="Under Construction">
+</body>
+</html>
